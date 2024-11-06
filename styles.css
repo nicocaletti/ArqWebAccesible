@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #0056b3;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+.profile-img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
